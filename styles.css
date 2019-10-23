@@ -28,3 +28,13 @@ th {
 table {
   empty-cells: hide;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px dotted #111;
+
+	
+}
