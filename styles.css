@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
 body {
 	background-color: Bisque;
 }
@@ -6,6 +9,9 @@ table, th, td {
 	border: 2px solid black;
 }
 
+table caption {
+	font-family: 'Raleway', sans-serif;
+}
 th, td {
 	padding: 15px;
 	text-align: center;
@@ -16,4 +22,7 @@ tr:nth-child(even){background-color: #LimeGreen}
 th {
   background-color: #4CAF50;
   color: black;
+}
+table {
+  empty-cells: hide;
 }
